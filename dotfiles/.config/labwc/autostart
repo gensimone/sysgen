@@ -27,4 +27,8 @@ swayidle -w \
         resume 'wlopm --on \*' \
         before-sleep 'swaylock -u -i ~/.config/labwc/wallpaper.png' >/dev/null 2>&1 &
 
+# Audio/Brightnessctl/Mic controls
 swayosd-server >/dev/null 2>&1 &
+
+# Polkit agent
+lxsession >/dev/null 2>&1 &

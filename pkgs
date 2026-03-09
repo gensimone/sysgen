@@ -1,12 +1,11 @@
 bash-completion
 bluetui
 bluez
-breeze-cursors
-breeze-gtk
-breeze-icons
+capitaine-cursors
 brightnessctl
 clang
 cmus
+deepin-gtk-theme
 dosfstools
 fd
 firefox
@@ -21,6 +20,7 @@ irssi
 labwc
 libmad
 libnotify
+lxsession
 make
 mako
 man-db
@@ -34,7 +34,6 @@ pcmanfm
 pipewire
 pipewire-pulse
 polkit
-polkit-gnome
 pulsemixer
 python
 python-pipx
