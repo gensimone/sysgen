@@ -1,5 +1,7 @@
 blueman
 bluez
+breeze-gtk
+breeze-icons
 brightnessctl
 clang
 cmus
@@ -21,8 +23,10 @@ mako
 man-db
 man-pages
 neovim
+networkmanager
 newsboat
 nmap
+pcmanfm
 pipewire
 pipewire-pulse
 pulsemixer
