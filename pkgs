@@ -54,5 +54,6 @@ waybar
 wget
 wireshark-qt
 wl-clipboard
+wmenu
 zathura
 zathura-pdf-mupdf
