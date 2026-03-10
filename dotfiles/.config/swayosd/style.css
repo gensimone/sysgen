@@ -1,66 +1,46 @@
-* {
-    font-family: "LigaMonaco Nerd Font";
-    color: #f3f4f6;
+window#osd {
+  border-radius: 0px;
+  border: 1px solid #000000;
+  background: #f6f5f4;
 }
 
-window {
-    background: transparent;
-    border-radius: 0px;
+window#osd #container {
+  margin: 6px;
+  padding: 2px;
+  background: #f6f5f4;
 }
 
-#osd {
-    background: #242424;
-    border-radius: 0px;
-    padding: 12px 20px;
-    min-width: 150px;
-    font-size: 10px;
-    border: 2px solid #FFFFFF;
-    box-shadow: 0 8px 32px 0 rgba(0,0,0,0.45);
+window#osd image {
+  -gtk-icon-transform: scale(0.7);
 }
 
-#osd .icon {
-    font-size: 36px;
-    margin-right: 10px;
-    color: #FFFFFF;
+window#osd image,
+window#osd label {
+  color: #000000;
 }
 
-#osd .label {
-    font-size: 16px;
-    font-weight: bold;
-    margin-bottom: 6px;
-    letter-spacing: 0.01em;
-    color: #e7e5e4;
+window#osd progressbar:disabled,
+window#osd image:disabled {
+  opacity: 1.0;
 }
 
-#osd .value {
-    font-size: 16px;
-    color: #fbbf24;
-    font-weight: bold;
-    margin-left: 10px;
+window#osd progressbar {
+  min-height: 6px;
+  border-radius: 0px;
+  background: #000000;
+  border: none;
 }
 
-progressbar:disabled,
-image:disabled {
-    opacity: 1.0;
+window#osd trough {
+  min-height: inherit;
+  border-radius: 0px;
+  border: none;
+  background: #f6f5f4;
 }
 
-progressbar {
-    min-height: 5px;
-    border-radius: 0px;
-    background: #FFFFFF;
-    border: none;
-}
-
-trough {
-    min-height: inherit;
-    border-radius: inherit;
-    border: none;
-    background: #242424;
-}
-
-progress {
-    min-height: inherit;
-    border-radius: inherit;
-    border: none;
-    background: #FFFFFF;
+window#osd progress {
+  min-height: inherit;
+  border-radius: 0px;
+  border: none;
+  background: #000000;
 }
