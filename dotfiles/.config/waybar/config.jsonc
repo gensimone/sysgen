@@ -69,7 +69,7 @@
     "tray": {
         "spacing": 11,
         "icons": {
-            "nm-applet": "connection.png"
+            "nm-applet": "/home/simone/.config/waybar/connection.png"
         }
     },
 
