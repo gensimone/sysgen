@@ -33,11 +33,14 @@
     <desktops number="4" />
     <keyboard>
         <default />
-        <!-- various -->
+        <!-- Execute -->
         <keybind key="A-Return"><action name="Execute" command="foot" /></keybind>
         <keybind key="A-r"><action name="Execute" command="bash -c 'kill -s SIGHUP $(pidof labwc)'" /></keybind>
         <keybind key="A-p"><action name="Execute" command="wmenu-run -f 'LigaMonaco Nerd Font 12' -N F4F5F6 -n 000000 -S BBBBBB -s 000000" /></keybind>
         <keybind key="A-Escape"><action name="Execute" command="swaylock" /></keybind>
+        <keybind key="A-a"><action name="Execute" command="foot -w 750x400 pulsemixer" /></keybind>
+
+        <!-- Windows actions -->
         <keybind key="A-q"><action name="Close" /></keybind>
         <keybind key="A-v"><action name="Iconify" /></keybind>
         <keybind key="A-f"><action name="ToggleMaximize" /></keybind>
@@ -61,18 +64,8 @@
         <keybind key="A-S-3"><action name="SendToDesktop" follow="yes" to="3" /></keybind>
         <keybind key="A-S-4"><action name="SendToDesktop" follow="yes" to="4" /></keybind>
 
-        <!-- audio -->
-        <keybind key="A-u"><action name="Execute" command="swayosd-client --output-volume lower" /></keybind>
-        <keybind key="A-i"><action name="Execute" command="swayosd-client --output-volume raise" /></keybind>
-        <keybind key="A-m"><action name="Execute" command="swayosd-client --output-volume mute-toggle" /></keybind>
-        <keybind key="A-S-m"><action name="Execute" command="swayosd-client --input-volume mute-toggle" /></keybind>
-        <keybind key="XF86AudioLowerVolume"><action name="Execute" command="swayosd-client --output-volume lower" /></keybind>
-        <keybind key="XF86AudioRaiseVolume"><action name="Execute" command="swayosd-client --output-volume raise" /></keybind>
-        <keybind key="XF86AudioMute"><action name="Execute" command="swayosd-client --output-volume mute-toggle" /></keybind>
-        <keybind key="XF86AudioMicMute"><action name="Execute" command="swayosd-client --input-volme mute-toggle" /></keybind>
-
         <!-- brightness -->
-        <keybind key="XF86MonBrightnessUp"><action name="Execute" command="swayosd-client --brightness +10" /></keybind>
-        <keybind key="XF86MonBrightnessDown"><action name="Execute" command="swayosd-client --brightness -10" /></keybind>
+        <keybind key="XF86MonBrightnessUp"><action name="Execute" command="brightnessctl s +5%" /></keybind>
+        <keybind key="XF86MonBrightnessDown"><action name="Execute" command="brightnessctl s 5%-" /></keybind>
     </keyboard>
 </labwc_config>

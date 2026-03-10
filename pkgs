@@ -1,4 +1,5 @@
 bash-completion
+batsignal
 bluetui
 bluez
 brightnessctl
@@ -46,7 +47,6 @@ sddm
 swaybg
 swayimg
 swaylock
-swayosd
 tmux
 tree
 tuned
