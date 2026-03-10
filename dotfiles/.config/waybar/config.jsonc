@@ -23,7 +23,7 @@
     "mode": "dock",
 
     // Height of the bar, leave blank for a dynamic value.
-    "height": 25,
+    "height": 24,
 
     // Width of the bar, leave blank for a dynamic value.
     "width": 0,
@@ -49,7 +49,7 @@
     "fixed-center": true,
 
     // Modules that will be displayed on the left.
-    "modules-left": ["idle_inhibitor","tray"],
+    "modules-left": ["tray"],
 
     // Modules that will be displayed in the center.
     "modules-center": ["clock"],
@@ -65,13 +65,9 @@
 		"interval": 60
 	},
 
-    // The 'idle inhibitor' module.
-    "idle_inhibitor": {
-      "format": "{icon}",
-      "format-icons": {
-        "activated": " ",
-        "deactivated": " "
-      }
+    // The 'tray' module.
+    "tray": {
+        "spacing": 11
     },
 
     // The 'battery' module.

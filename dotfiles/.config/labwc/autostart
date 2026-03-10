@@ -32,3 +32,6 @@ swayosd-server >/dev/null 2>&1 &
 
 # Polkit agent
 lxsession >/dev/null 2>&1 &
+
+# Network Manager applet
+nm-applet >/dev/null 2>&1 &

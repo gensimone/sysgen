@@ -9,7 +9,7 @@ window {
 }
 
 #osd {
-    background: #000000;
+    background: #242424;
     border-radius: 0px;
     padding: 12px 20px;
     min-width: 150px;
@@ -55,7 +55,7 @@ trough {
     min-height: inherit;
     border-radius: inherit;
     border: none;
-    background: #000000;
+    background: #242424;
 }
 
 progress {
