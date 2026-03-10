@@ -37,7 +37,7 @@
         <!-- various -->
         <keybind key="A-Return"><action name="Execute" command="foot"/></keybind>
         <keybind key="A-r"><action name="Execute" command="bash -c 'kill -s SIGHUP $(pidof labwc)'"/></keybind>
-        <keybind key="A-p"><action name="Execute" command="wmenu-run -f 'LigaMonaco Nerd Font 12' -N 31363B -n FFFFFF -S 5E5E5E -s FFFFFF -b"/></keybind>
+        <keybind key="A-p"><action name="Execute" command="wmenu-run -f 'LigaMonaco Nerd Font 12' -N 000000 -n FFFFFF -S D0D0D0 -s 000000 -b"/></keybind>
         <keybind key="A-q"><action name="Close"/></keybind>
         <keybind key="A-f"><action name="ToggleMaximize"/></keybind>
         <keybind key="A-Tab"><action name="NextWindow"/></keybind>

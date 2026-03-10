@@ -4,8 +4,7 @@
 }
 
 window#waybar {
-	border: 1px solid #31363B;
-    background-color: #31363B;
+    background-color: #000000;
     color: #FFFFFF;
 }
 
