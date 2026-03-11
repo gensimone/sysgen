@@ -44,6 +44,7 @@ qemu-img
 qemu-system-x86
 qt6ct
 ripgrep
+rsync
 rustup
 sddm
 swaybg
