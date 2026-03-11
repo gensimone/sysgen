@@ -1,4 +1,5 @@
 acpi
+adw-gtk-theme
 bash-completion
 batsignal
 bluetui
@@ -49,6 +50,7 @@ swaybg
 swayimg
 swaylock
 tmux
+translate-shell
 tree
 tuned
 unzip
@@ -62,5 +64,6 @@ wlopm
 wmenu
 xdg-desktop-portal-gtk
 xdg-desktop-portal-wlr
+xdg-user-dirs
 zathura
 zathura-pdf-mupdf
